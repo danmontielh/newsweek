@@ -85,3 +85,7 @@ body {
     font-size: 20px;
     border-right: 1px dotted gray;
 }
+
+.main {
+    background: #fff;
+}
