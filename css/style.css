@@ -161,9 +161,7 @@ body {
     font-size: 14px;
 }
 
-.more-post {
-    margin-bottom: 25px;
-}
+
 
 .more-post .image {
     float: left;
@@ -174,6 +172,13 @@ body {
 @media (max-width: 767px) and (min-width: 481px) {
     .more-post .image {
         width: 258px;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 547px) {
+    .more-post  {
+        height: 174px;
     }
 
 }
