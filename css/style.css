@@ -2,6 +2,9 @@ body {
     background: #f4f5f6;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 
 
 .background-header {
@@ -11,6 +14,11 @@ body {
 .align-end {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.align-center {
+    display: grid;
     align-items: flex-end;
 }
 
@@ -179,8 +187,14 @@ body {
 @media (max-width: 767px) and (min-width: 547px) {
     .more-post  {
         height: 174px;
+
     }
 
+    .top-opinion .text-opinion {
+        margin-top: 35px;
+    }
+    
+    
 }
 
 @media (min-width:1337px){
@@ -204,4 +218,29 @@ body {
 
 .featured-stories .post-img img,  .top-news .post-img img {
     width: 100%;
+}
+
+.top-opinion {
+    margin-bottom: 15px;
+}
+
+.top-opinion .img-opinion {
+    margin-right: 10px;
+}
+
+.top-opinion .text-opinion {
+    margin-top: 25px;
+   
+}
+
+.top-opinion .text-opinion h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px 
+}
+
+.top-opinion .text-opinion span {
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
 }
