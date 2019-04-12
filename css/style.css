@@ -244,3 +244,21 @@ p, h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: gray;
 }
+
+.margin-auto {
+    margin: auto;
+}
+
+.footer {
+    background: #fff;
+    margin-top: 4px;
+}
+
+.footer .brand-footer img {
+    max-width: 278px;
+}
+
+
+.footer .brand-footer span {
+    float: right;
+}
