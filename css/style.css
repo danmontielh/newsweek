@@ -285,12 +285,17 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .footer-menu ul.nav li.nav-item a {
     color: gray;
+    /* margin: auto;
     border-right: 1px dotted rgba(0, 0, 255, 0.3);
-    padding: 10px 15px;
-    height: 25px;
-    margin-right: 15px;
+    height: 25px; */
 }
 
+
+.bold {
+    font-weight: 600;
+}
+
+/* 
 @media (max-width: 991px)  {
    
 
@@ -300,4 +305,4 @@ p, h1, h2, h3, h4, h5, h6 {
         
     }
 
-}
+} */
