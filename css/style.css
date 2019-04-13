@@ -234,8 +234,15 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-right: 10px;
 }
 
+.top-opinion .img-opinion img {
+   width: auto;
+   max-width: inherit;
+    height: 68px;
+    
+}
+
 .top-opinion .text-opinion {
-    margin-top: 25px;
+    margin-top: 5px;
    
 }
 
