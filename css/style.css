@@ -141,6 +141,7 @@ h6 {
   padding: 5px 15px 9px;
   color: #f72210;
   font-size: 17px;
+  font-weight: 600;
 }
 
 .featured-stories .category-i a,
@@ -273,6 +274,55 @@ h6 {
 
 .signup {
     padding: 15px;
+}
+
+.signup .text-icon span.icon {
+  display: block;
+  background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg") center/contain no-repeat #f72210;
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.signup p.preferences {
+  font-size: 15px;
+  color: #666;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.signup p.lead  {
+float: right;
+}
+
+.sign {
+  font-size: 18px;
+  font-weight: 600;
+  color:#242424;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.custom-btn {
+  background: #666;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.custom-btn:hover {
+  background: #666;
+  opacity: .7;
+  
+}
+
+.custom-jumbo {
+  padding: 2rem 1rem;
+  width: 300px;
 }
 
 .margin-auto {
