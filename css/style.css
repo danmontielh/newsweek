@@ -13,7 +13,7 @@ h6 {
 }
 
 .background-header {
-  background-color: #f72210;
+  background-color:red;
 }
 
 .align-end {
@@ -75,7 +75,7 @@ h6 {
   padding: 8px;
 }
 
-.wrapper .subscribe a {
+.wrapper .subscribe a, .wrapper .subscribe a:hover {
   width: 120px;
   height: 35px;
   background: #fff;
@@ -89,6 +89,7 @@ h6 {
 
 .background-custom {
   background-color: #fff;
+  border-bottom: 1px dotted rgba(3, 3, 3, 0.9);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -195,6 +196,8 @@ h6 {
   .footer .brand-footer .icons {
     margin-left: 25px;
   }
+
+ 
 }
 
 @media (max-width: 767px) and (min-width: 547px) {
@@ -217,6 +220,58 @@ h6 {
   .headerbo {
     display: none;
   }
+
+  .background-custom {
+   border: none;
+  }
+
+  .date {
+    display: none;
+  }
+  .responsive {
+    align-items: center;
+  }
+
+  .logo {
+    width: 164px;
+    height: 50px;
+  }
+
+  .header .wrapper {
+    height: 50px;
+  }
+  .header .wrapper p {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px;
+    width: 69px;
+  }
+
+  .icon-responsive {
+    width: 40px;
+  }
+
+  .navbar-light .navbar-toggler {
+    border: none; 
+  }
+
+  .navbar-light .navbar-toggler:focus{
+    border: none;
+  }
+
+  .navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .navbar-toggler-icon {
+    position: absolute;
+    top:-39px;
+    right: 8px;
+    color: white;
+  }
+
+  
 }
 
 @media (max-width: 1336px) {
